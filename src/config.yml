@@ -30,3 +30,4 @@ message:
   delLore: '§a已删除Lore.'
   clearDisplayName: '§a已清除物品显示名.'
   clearLore: '§a已清除Lore.'
+  not_a_player_skull: '§b不是玩家头颅'

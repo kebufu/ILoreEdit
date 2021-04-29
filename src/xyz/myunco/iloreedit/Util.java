@@ -151,6 +151,13 @@ public class Util {
                     p.sendMessage(Language.argsError);
                     return;
                 }
+            case "skull":
+            	if(item.getType()==Material.SKULL_ITEM||item.getDurability()!=3) {
+            		p.sendMessage(Language.not_a_player_skull);
+            		break;
+            	}
+            	
+            	break;
             default:
                 p.sendMessage(Language.argsError);
                 return;
